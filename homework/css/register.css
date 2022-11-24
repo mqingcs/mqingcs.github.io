@@ -1,0 +1,47 @@
+*{
+    font-size: 18px;
+}
+table{
+    margin-top: 150px;
+}
+tr{
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+#register{
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px #232;
+}
+#username{
+    background-image: url(../img/user.JPG);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 5px;
+    height: 30px;
+    padding-left: 35px;
+    border: 1px solid gray;
+    outline: none;
+}
+#username:hover{
+    border: 1px solid purple;
+}
+#password,#repwd{
+    background-image: url(../img/password.JPG);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 5px;
+    height: 30px;
+    padding-left: 35px;
+    border: 1px solid gray;
+    outline: none;
+}
+#password:hover,#repwd:hover{
+    border: 1px solid purple;
+}
+body{
+    background-image: url(../img/bg3.jpg);
+    background-repeat: no-repeat;
+}
